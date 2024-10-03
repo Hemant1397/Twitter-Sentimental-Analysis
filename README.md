@@ -16,17 +16,17 @@ sentiment: the polarity of the tweet (0 = negative, 4 = positive) ids: The id of
 Furthermore, we're changing the sentiment field so that it has new values to reflect the sentiment. (0 = Negative, 1 = Positive).
 
 🔵 Approach:
-Collected data from Kaggle
-Imported with essential steps and created a visual that describes number of positive and negative tweets.
-Text Processing: steps taken are Lower Casing, - Replacing Emojis, - Replacing Usernames, - Removing Non-Alphabets, - Removing Consecutive letters, - Removing Short Words, - Removing Stopwords, - Lemmatizing.
-For this project I am using NLTK library. You can use spaCy3 or other.
-By WordCloud I displayed important words from negative and positive tweets.
-Splitted a data into training and testing data.
-Created 3 different types of model for better results and accuracy: Bernoulli Naive Baye(Bernoulli) Linear Support Vector Classification (LinearSVC) Logistic Regression (LR).
-Evaluated 3 models by classification report and confusion matrix.
-Select best model among them.
-Saved the models
-Write a function which can predict sentiment of tweets.
-Took some sentences and found their sentiments.
+1. Collected data from Kaggle
+2. Imported with essential steps and created a visual that describes number of positive and negative tweets.
+3. Text Processing: steps taken are Lower Casing, - Replacing Emojis, - Replacing Usernames, - Removing Non-Alphabets, - Removing Consecutive letters, - Removing Short Words, - Removing Stopwords, - Lemmatizing.
+4. For this project I am using NLTK library. You can use spaCy3 or other.
+5. By WordCloud I displayed important words from negative and positive tweets.
+6. Splitted a data into training and testing data.
+7. Created 3 different types of model for better results and accuracy: Bernoulli Naive Baye(Bernoulli) Linear Support Vector Classification (LinearSVC) Logistic Regression (LR).
+8. Evaluated 3 models by classification report and confusion matrix.
+9. Select best model among them.
+10. Saved the models
+11. Write a function which can predict sentiment of tweets.
+12. Took some sentences and found their sentiments.
 
 🔵 Thank You!
